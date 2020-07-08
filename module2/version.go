@@ -1,8 +1,10 @@
 package module2
 
 import (
-	"github.com/pkg/json"
+	"github.com/urfave/cli/v2"
 )
 
+var _ = cli.CommandHelpTemplate
+
 // Version is version
-var Version = "0.0.1 " + string(json.True)
+var Version = "0.0.1 "
